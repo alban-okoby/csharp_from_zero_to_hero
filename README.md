@@ -21,13 +21,38 @@ Learning C# can offer several benefits: <br>
 - **Community and Support**: C# has a large and active developer community, which means you can find plenty of online resources, forums, and communities to seek help, share knowledge, and collaborate with fellow developers.
 - **Integration with Visual Studio**: C# integrates seamlessly with Visual Studio, a powerful and feature-rich integrated development environment (IDE). Visual Studio offers advanced debugging capabilities, code analysis tools, and other productivity features that can enhance your development workflow.  Ultimately, the decision to learn C# depends on your specific goals, interests, and career aspirations. If you are interested in Microsoft technologies, software development, or want to expand your programming skill set, learning C# can be a valuable investment.
 
+### 02 Formating & Interpolation
+#### - Example
+```csharp
+  string projectName = "ACME";
+
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+
+string data = "data.txt";
+string ruPath = "ru-RU";
+
+Console.WriteLine("View English output:");
+Console.WriteLine($@"c:\Exercice\{projectName}\{data}");
+Console.WriteLine("\n");
+
+Console.WriteLine($@"{russianMessage}:");
+Console.WriteLine($@"c:\Exercice\{projectName}\{ruPath}\{data}");
+```
+
+#### - Output
+```csharp
+Output
+View English output:
+c:\Exercice\ACME\data.txt
+
+Посмотреть русский вывод:
+c:\Exercice\ACME\ru-RU\data.txt
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate. <br>
-
-
-
 Happy coding <\🚀> <br>
