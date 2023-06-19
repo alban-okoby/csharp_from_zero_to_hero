@@ -20,3 +20,14 @@ Learning C# can offer several benefits: <br>
 - **Similarity to Other Languages**: If you already have experience with programming languages like Java or C++, learning C# will be relatively easier. C# shares similarities with these languages, making it easier to transfer your skills and knowledge between them.
 - **Community and Support**: C# has a large and active developer community, which means you can find plenty of online resources, forums, and communities to seek help, share knowledge, and collaborate with fellow developers.
 - **Integration with Visual Studio**: C# integrates seamlessly with Visual Studio, a powerful and feature-rich integrated development environment (IDE). Visual Studio offers advanced debugging capabilities, code analysis tools, and other productivity features that can enhance your development workflow.  Ultimately, the decision to learn C# depends on your specific goals, interests, and career aspirations. If you are interested in Microsoft technologies, software development, or want to expand your programming skill set, learning C# can be a valuable investment.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate. <br>
+
+
+
+Happy coding <\🚀> <br>
